@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+ @apply w-0
+}
+
+@layer base {
+  body {
+    @apply font-kumbh bg-brand-bg
+  }
+}
+
+.list-grid {
+  @apply after:absolute after:w-full after:bottom-0 after:left-0 after:bg-bottom-gradient after:py-12
+}
